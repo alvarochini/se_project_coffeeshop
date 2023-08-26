@@ -1,0 +1,27 @@
+.page{
+  min-width: 1100px;
+  max-width: 1600px;
+  margin: 0 auto;
+font-family: 'Inter', Arial, sans-serif;
+  font-size: 16px;
+  line-height: 20px;
+}
+
+.header{}
+
+.content{}
+
+.reservation{}
+
+.menu{}
+
+.about{}
+
+.footer{}
+
+
+/*
+font family style for CSS
+font-family: 'Inter', Arial, sans-serif;
+font-family: 'Noto Serif', Times New Roman, serif;*/
+
