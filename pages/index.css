@@ -14,7 +14,12 @@
   min-height: 720px;
   max-height: 800px;
   height: 100vh;
+  background-image: url(../images/background_header.svg) ;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
 }
+
 
 .nav{
   display: flex;
@@ -54,7 +59,7 @@
   max-width: 729px;
   font-size: 60px;
   line-height: 72px;
-  font-family: "Inter";
+  font-family: "Inter", Arial, sans-serif;
   font-style: normal;
   font-weight: 500;
   letter-spacing: -.6px;
@@ -65,7 +70,7 @@
 .header__span-accent{
   color:#2f80ed;
   font-style: italic;
-  font-family: "Noto Serif";
+  font-family: "Noto Serif", "Times New Roman", serif;
   display: block;
 
 }
@@ -75,7 +80,7 @@
   max-width: 683px;
   font-size: 20px;
   line-height: 30px;
-  font-family: "Noto Serif";
+  font-family: "Noto Serif", "Times New Roman", serif;
   font-style: normal;
   font-weight: normal;
 }
@@ -87,28 +92,77 @@
   position: absolute;
   top: 124px;
   right: 5px;
+
+
 }
 
 .header__footer{
-font-family: "Inter";
-font-style: normal;
-font-weight: 500;
-font-size: 16px;
-line-height: 20px;
-color: #838383;
-display: flex;
-justify-content: space-between;
-margin-top: auto;
+  font-family: "Inter", Arial, sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 20px;
+  color: #838383;
+  display: flex;
+  justify-content: space-between;
+  margin-top: auto;
 
 }
 
 .header__paragraph{
   margin: 0;
-
 }
+
 .content{}
 
-.recipes{}
+.recipes{
+  background-color: #0a2750;
+  padding: 100px 80px 215px;
+  background-image: url(../images/background_recipes.svg);
+background-repeat: no-repeat;
+background-position: center;
+block-size: cover;
+
+}
+
+.recipes__title{
+  max-width: 580px;
+  font-family: 'Inter', Arial, sans-serif;
+  font-weight: 500;
+  font-size: 44px;
+  line-height: 52px;
+  color: #ffffff;
+  margin-bottom: 24px;
+}
+
+.recipes__subtitle{
+font-family: "Noto Serif", "Times New Roman", serif;
+font-size: 20px;
+line-height: 30px;
+max-width: 438px;
+color: #ffffff;
+margin-bottom: 80px;
+}
+
+.recipe__videos{
+  display: flex;
+  justify-content: center;
+  gap: 40px;
+}
+
+.recipes__video-caption{
+  font-family: "Inter", Arial, sans-serif;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 30px;
+  color: #ffffff;
+  margin-bottom: 24px;
+}
+
+.recipes__video-caption{
+  display: flex;
+  justify-content: space-between;
+}
 
 .reservation{}
 
