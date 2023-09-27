@@ -144,7 +144,7 @@ color: #ffffff;
 margin-bottom: 80px;
 }
 
-.recipe__videos{
+.recipes__videos{
   display: flex;
   justify-content: center;
   gap: 40px;
@@ -162,6 +162,11 @@ margin-bottom: 80px;
 .recipes__video-caption{
   display: flex;
   justify-content: space-between;
+}
+
+recipes__iframe{
+  border: none;
+
 }
 
 .reservation{}
