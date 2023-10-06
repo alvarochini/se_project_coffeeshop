@@ -73,7 +73,7 @@ line-height: 30px;
   margin-bottom:0;
 }
 
-.menu__card_list-divider {
+.menu__card_list_divider {
   border-bottom: 1px solid black;
   flex-grow: 1;
 }
