@@ -19,6 +19,8 @@
 
 }
 
+
+
 .menu__subtitle{
 max-width: 780px;
 text-align: center;
@@ -29,3 +31,13 @@ line-height: 30px;
 }
 
 
+
+.menu__cards{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content:center;
+  gap: 100px;
+  padding: 0;
+  margin: 0;
+  list-style-type: none;
+}
