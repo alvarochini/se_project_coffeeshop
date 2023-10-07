@@ -32,7 +32,7 @@
   margin-bottom:0;
 }
 
-.card__list_divider {
+.card__list-divider {
   border-bottom: 1px solid black;
   flex-grow: 1;
 }
