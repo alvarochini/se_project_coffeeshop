@@ -1,4 +1,4 @@
-.menu{
+.menu {
   padding: 100px 0 100px;
   background-color: #fff;
   background-image: url(../images/background_menu.svg);
@@ -7,35 +7,29 @@
   background-repeat: no-repeat;
 }
 
-.menu__title{
+.menu__title {
   max-width: 780px;
   text-align: center;
   margin: 0 auto;
-  font-family: 'Inter', Arial, sans-serif;
+  font-family: "Inter", Arial, sans-serif;
   font-weight: 500;
   font-size: 44px;
   line-height: 52px;
-
-
 }
 
-
-
-.menu__subtitle{
-max-width: 780px;
-text-align: center;
-margin: 24px auto 100px;
-font-family: 'Noto Serif', 'Times New Roman', serif;
-font-size: 20px;
-line-height: 30px;
+.menu__subtitle {
+  max-width: 780px;
+  text-align: center;
+  margin: 24px auto 100px;
+  font-family: "Noto Serif", "Times New Roman", serif;
+  font-size: 20px;
+  line-height: 30px;
 }
 
-
-
-.menu__cards{
+.menu__cards {
   display: flex;
   flex-wrap: wrap;
-  justify-content:center;
+  justify-content: center;
   gap: 100px;
   padding: 0;
   margin: 0;
