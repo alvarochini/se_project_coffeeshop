@@ -41,9 +41,6 @@
   line-height: 30px;
   color: #ffffff;
   margin: 24px 0 0;
-}
-
-.recipes__video-caption {
   display: flex;
   justify-content: space-between;
 }

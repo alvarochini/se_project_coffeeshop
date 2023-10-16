@@ -26,11 +26,11 @@
   list-style-type: none;
   padding: 0;
   margin: 0;
-  color: #ffff;
+  color: #fff;
 }
 
 .footer__list-item {
-  color: #ffff;
+  color: #fff;
   margin-bottom: 16px;
 }
 
@@ -40,7 +40,7 @@
 
 .footer__social-link {
   text-decoration: none;
-  color: #ffff;
+  color: #fff;
   font-family: "Inter", Arial, sans-serif;
   font-size: 16px;
   line-height: 20px;
